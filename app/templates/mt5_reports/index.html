@@ -1,0 +1,11 @@
+{% extends "mt5_reports/base.html" %}
+{% load static %}
+{% block title %} {{title}} - {{mt5_session}} {% endblock title%}
+{% block content %}
+<ul> А это у нас главный контент тута:
+        <li>1. Clients Total Profit: {{total_profit}}</li>
+        <li>2. Clients Total Loss: {{total_loss}}</li>
+        <li>==========================================</li>
+        <li>3. Result: {{total_result}}</li>
+</ul>
+{% endblock content %}

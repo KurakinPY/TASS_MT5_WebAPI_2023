@@ -1,0 +1,11 @@
+{% load static %}
+<div class="main_header">
+    <img alt="logo" src="{% static 'img/tass-logo.png' %}" style="width:300px">
+    <ul> Common information:
+        <li>Server name: {{common.Name}}</li>
+        <li>Company: {{common.Owner}}</li>
+        <li>Total Users Real: {{common.TotalUsersReal}}</li>
+        <li>Total Deals: {{common.TotalDeals}}</li>
+        <li>Total Positions: {{common.TotalPositions}}</li>
+    </ul>
+</div>
