@@ -22,6 +22,11 @@ li {margin-left: 13px; font-size: 1.0em; font-weight: normal;}
 .nav_content {
     min-width: 300px;
     background-color: rgb(159, 128, 194);}
+.nav_separator {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
 
 .main_content {
     width: 100%;
